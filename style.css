@@ -201,7 +201,7 @@ address { font-style: normal; }
 .hero-arc path {
   fill: none; stroke: var(--brass); stroke-width: .06;
   stroke-dasharray: 1 1; stroke-dashoffset: 1; opacity: .75;
-  transition: stroke-dashoffset 2.6s cubic-bezier(.6, .05, .2, 1) .35s;
+  transition: stroke-dashoffset 1.4s cubic-bezier(.6, .05, .2, 1) .1s;
 }
 .loaded .hero-arc path { stroke-dashoffset: 0; }
 
@@ -216,8 +216,8 @@ address { font-style: normal; }
 .hero-title .ln { display: block; overflow: hidden; padding-bottom: .2em; margin-bottom: -.2em; }
 .hero-title .ln:last-child { margin-bottom: 0; }
 .hero-title .ln > span { display: inline-block; }
-.js .hero-title .ln > span { transform: translateY(125%); transition: transform 1.1s var(--ease); }
-.js .hero-title .ln:nth-child(2) > span { transition-delay: .12s; }
+.js .hero-title .ln > span { transform: translateY(125%); transition: transform .9s var(--ease); }
+.js .hero-title .ln:nth-child(2) > span { transition-delay: .08s; }
 .loaded .hero-title .ln > span { transform: none !important; }
 .hero-title strong { font-weight: 400; color: var(--brass-text); }
 
@@ -233,7 +233,7 @@ address { font-style: normal; }
 .hero-copy .btn { margin-top: 36px; }
 
 .band-hero { margin-top: clamp(56px, 9vh, 104px); aspect-ratio: 1300 / 520; }
-.js .band-hero { clip-path: inset(6% 4% 6% 4%); transition: clip-path 1.6s var(--ease); transform: none; opacity: 1; }
+.js .band-hero { clip-path: inset(6% 4% 6% 4%); transition: clip-path 1s var(--ease); transform: none; opacity: 1; }
 .js .band-hero.in { clip-path: inset(0 0 0 0); }
 .band-hero img { object-position: 60% 50%; transform: scale(1.05); }
 
