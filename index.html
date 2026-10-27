@@ -37,9 +37,8 @@
 </script>
 <meta name="theme-color" content="#F4F0E8">
 <link rel="icon" href="assets/agmenta-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Familjen+Grotesk:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/familjen-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -111,8 +110,8 @@
       </h1>
 
       <div class="hero-intro">
-        <h2 class="hero-sub rv">Agmenta Holding - <span>ett gästvänligt företag</span></h2>
-        <div class="hero-copy rv">
+        <h2 class="hero-sub">Agmenta Holding - <span>ett gästvänligt företag</span></h2>
+        <div class="hero-copy">
           <p>Agmenta Holding AB är ett entreprenörsföretag inom besöksnäringen med fokus på människan och dennes välbefinnande.</p>
           <p>Vi är engagerade och långsiktiga ägare till restauranger, hotell och fastigheter med ambitionen att alltid ha gästerna och personalen i fokus, dvs människorna.</p>
           <p>Vi är övertygade om att människan gör platsen trivsam och levande och inte tvärtom.</p>
@@ -122,8 +121,8 @@
 
       <figure class="band band-hero rv">
         <picture>
-          <source type="image/webp" srcset="assets/buildings-1300.webp 1300w, assets/buildings-2600.webp 2600w" sizes="(max-width: 1400px) 100vw, 1400px">
-          <img src="assets/buildings-2600.jpg" srcset="assets/buildings.jpg 1300w, assets/buildings-2600.jpg 2600w" sizes="(max-width: 1400px) 100vw, 1400px" alt="" width="2600" height="980" data-parallax="2">
+          <source type="image/webp" srcset="assets/buildings-800.webp 800w, assets/buildings-1300.webp 1300w, assets/buildings-2600.webp 2600w" sizes="(max-width: 1400px) 100vw, 1400px">
+          <img src="assets/buildings-2600.jpg" srcset="assets/buildings.jpg 1300w, assets/buildings-2600.jpg 2600w" sizes="(max-width: 1400px) 100vw, 1400px" alt="" width="2600" height="980" fetchpriority="high" data-parallax="2">
         </picture>
       </figure>
 

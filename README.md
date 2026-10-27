@@ -20,6 +20,10 @@ python3 dev_server.py
 4. Avsändaren `webb@agmenta.se` (överst i `send.php`) bör finnas på domänen, annars kan mejlen hamna i skräpposten.
 5. Formuläret sparar personuppgifter, så sajten behöver en integritetspolicy innan den går live.
 
+## Typsnitt
+
+Bodoni Moda och Familjen Grotesk ligger i `assets/fonts/` (SIL Open Font License, från Google Fonts). De laddas från sajten själv, så inga besökaruppgifter skickas till Google.
+
 ## Att kolla med Agmenta
 
 - Magnus telefonnummer står som `+46 (0) 486 73 15` på nuvarande sajt och verkar sakna siffror.
